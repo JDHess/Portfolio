@@ -273,3 +273,9 @@ nav div ul li a:hover {
     margin-top:100px;
     margin-bottom:100px;
 }
+.nopoint {
+    list-style: none;
+}
+.carda:hover {
+    box-shadow: -1rem 0 3rem rgb(0, 0, 0) !important;
+}

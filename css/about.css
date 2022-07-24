@@ -11,7 +11,7 @@ body {
     height: 100px;
 }
 .hero-image {
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../Images/me.jpg");
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../Images/me.png");
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
