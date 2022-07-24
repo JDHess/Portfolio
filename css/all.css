@@ -59,7 +59,7 @@ nav div ul li a:hover {
   }
   
   /* Card Hover */
-  .card:hover {
+  .card25:hover {
     transform: translateY(1rem);
     transform: translateY(-50px);
 }
