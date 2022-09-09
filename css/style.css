@@ -38,6 +38,9 @@ nav div ul li a:hover {
   display: inline-block;
       font-size: 100px;
 }
+.charictortwo{
+    font-size: 50px !important;
+}
 
 @keyframes textclip {
   to {
@@ -278,12 +281,16 @@ nav div ul li a:hover {
 /*about*/
 .hero-image {
     background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../Images/me.png");
-    height: 700px;
+    height: 500px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
   /*image is fixed in background all other elements are scrolling*/  
   /*background attachement makes image fixed*/
     background-attachment: fixed;
     position: relative;
-    top:-50;
+    background-position: center;
+}
+.pose-section {
+    position: relative; 
+    top: -100px;
 }
