@@ -16,6 +16,7 @@ nav div ul li a {
 nav div ul li a:hover {
   color: #525252 !important;
 }
+
 .animate-charcter
 {
    text-transform: uppercase;
@@ -36,8 +37,31 @@ nav div ul li a:hover {
   -webkit-text-fill-color: transparent;
   animation: textclip 6s linear infinite;
   display: inline-block;
-      font-size: 100px;
+  font-size: 75pt;
 }
+@media screen and (min-width:1000px) {
+    .animate-charcter {
+        font-size: 75pt;
+    }
+}
+@media screen and (max-width:1000px) {
+    .animate-charcter {
+        font-size: 50pt;
+    }
+}
+
+@media screen and (max-width:561px) {
+    .animate-charcter {
+        font-size: 25pt;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .animate-charcter {
+        font-size: 16pt;
+    }
+}
+
 .charictortwo{
     font-size: 50px !important;
 }
