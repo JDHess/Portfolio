@@ -7,11 +7,9 @@
 
 @font-face {
     font-family: 'ampelioregular';
-    src: url('../Fontone/ampelio_mac-webfont.woff2') format('woff2'),
-         url('../Fontone/ampelio_mac-webfont.woff') format('woff');
+    src: url('../Fontone/ampelio_mac-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -50,6 +48,8 @@ p {
 .Ampelio {
     font-family: 'ampelioregular', sans-serif;
     font-size: 80pt;
+    font-weight: normal;
+    font-style: normal;
 }
 /*Start Animate all animate-charcter titles */
 .animate-charcter
