@@ -1,9 +1,20 @@
+/*Fonts Lobster and Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&family=Open+Sans&display=swap');
+
+
+/*Entire doc start*/
+* {
+    margin: 0;
+    padding: 0; 
+}
 body{
     overflow-x: hidden;
 }
 body {
     background-color: rgb(201, 167, 107) !important;
 }
+/*Entire doc end*/
+/*links start*/
 a {
   color:#7b0000 !important; 
 }
@@ -16,7 +27,14 @@ nav div ul li a {
 nav div ul li a:hover {
   color: #525252 !important;
 }
-
+/*links end*/
+h1,h2 {
+    font-family: 'Kanit', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+/*Start Animate all animate-charcter titles */
 .animate-charcter
 {
    text-transform: uppercase;
@@ -62,15 +80,17 @@ nav div ul li a:hover {
     }
 }
 
-.charictortwo{
-    font-size: 50px !important;
-}
-
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
 }
+/*End Animate all animate-charcter titles */
+
+.charictortwo{
+    font-size: 50px !important;
+}
+/*Start Adds card animation*/
 .card{
     display: flex;
     flex-direction: column;
@@ -117,7 +137,11 @@ nav div ul li a:hover {
  .card3 {
   z-index:3 !important;
  }
-
+ .carda:hover {
+    box-shadow: -1rem 0 3rem rgb(0, 0, 0) !important;
+}
+/*End adds card animation*/
+/*Start footer*/
  .footer {
     background-color: white;
     background-size: cover;
@@ -157,10 +181,10 @@ nav div ul li a:hover {
         font-size: 14px;
     }
 
-.second {
+/*.second {
     margin-top: 40px;
     margin-bottom: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
@@ -265,13 +289,13 @@ nav div ul li a:hover {
             color: #fff;
             transition: 0.2s;
             text-shadow: 1px 1px 20px rgba(0,0,0,1);
-        }
+        }*/
 
         .first {
             text-align: center;
         }
 
-@media screen and (max-width:1000px) {
+/*@media screen and (max-width:1000px) {
     .third {
         text-align: center;
     }
@@ -279,7 +303,7 @@ nav div ul li a:hover {
         .third h4::after {
             left: 40% !important;
         }
-}
+}*/
 
 .margin {
     margin-left: 20px;
@@ -296,13 +320,14 @@ nav div ul li a:hover {
     margin-top:100px;
     margin-bottom:100px;
 }
+/*Start takes away bullet points from lists*/
 .nopoint {
     list-style: none;
 }
-.carda:hover {
-    box-shadow: -1rem 0 3rem rgb(0, 0, 0) !important;
-}
-/*about*/
+/*End takes away bullet points from lists*/
+
+
+/*Hero image for all pages*/
 .hero-image {
     background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../Images/me.png");
     height: 500px;
@@ -314,7 +339,9 @@ nav div ul li a:hover {
     position: relative;
     background-position: center;
 }
+/*Start moving homepage section up into hero section*/
 .pose-section {
     position: relative; 
     top: -100px;
 }
+/*end moving homepage section up into hero section*/
