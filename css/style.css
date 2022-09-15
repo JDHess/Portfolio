@@ -124,7 +124,9 @@ p {
     width: 10px;
     height: 10px;
   }
-  
+  .card25 {
+    width: 100% !important;
+  }
   /* Card Hover */
   .card25:hover {
     transform: translateY(1rem);
