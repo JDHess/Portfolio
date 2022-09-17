@@ -3,257 +3,218 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Julie Hess">
-    <meta name="description" content="About Julie Hess -Front End Web developer, Web Designer, Web Design Consultant, Artist (Remote)">
-    <title>About</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/1a1dc46bbe.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
+    <link rel="stylesheet" href="./css/new.css">
+</head>
   <body>
-    <!--start nav-->
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a href="./index.html"><img src="./Images/JH.png" width="auto" height="100px" alt="A logo that says J H"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home</a>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="./web.html">Web Design</a>
+        <a href="./ebusiness.html">e-Buisness Cards</a>
+        <a href="https://www.etsy.com/shop/JHNordicArt?ref=seller-platform-mcnav" target="_blank">JHNordicArt</a>
+        <a href="./logo.html">Logo Design</a>
+        <a href="./fonts.html">Font Design</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+      <!--main content start-->
+      <div id="main">
+         <!--top nav start--> 
+        
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a href="./index.html"><img src="./Images/JH.png" width="auto" height="100px" alt="A logo that says J H"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./web.html">Web Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./ebusiness.html">e-Buisness Cards</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Me</a>
+                      </li>
+                </ul>
+                <hr>
+                <button class="openbtn" onclick="openNav()">More</button>
+              </div>
+            </div>
+          </nav>
+          <!--top nav end--> 
+          <!--title section start-->
+          <section>
+            <br>
+            <br>
+            <div class="card col-10 mx-auto">
+              <div class="card-body text-center">
+                <h1 class="card-title text-center animate-charcter">About Me</h1>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+          </section> 
+          <!--end About me title section-->
+          <!--Start Hero image section-->
+          <div class="p-5 mb-4 bg-light rounded-3 backgroundone d-flex align-items-center hero-image">
+           
+          </div>
+          <!--end Hero image section-->
+          <section>
+            <!--start about me cards-->
+            <div class="card card25 col-10 mx-auto">
+              <div class="card-body">
+                <h2 class="card-title">Julie Hess</h2>
+                <h2 class="card-subtitle mb-2 text-muted">Front End Web developer, Web Designer, Web Design Consultant, Artist (Remote) </h2>
+                <hr>
+                <ul class="nopoint text-center">
+                  <li>
+                    <a href="https://www.linkedin.com/in/julie-hess-09541523a/" target="_blank"><i class="fa-brands fa-7x fa-linkedin"></i></i></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./web.html">Web Design</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./ebusiness.html">e-Buisness Cards</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://www.etsy.com/shop/JHNordicArt?ref=seller-platform-mcnav"target="_blank">JHNordicArt</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./logo.html">Logo Design</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./fonts.html">Font Design</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact Me</a>
-                  </li>
+                  <!--add contact me button-->
+                </ul>
+              </div>
+            </div>
+          </section> 
+          <br>
+      <section>
+        <div class="card card25 col-10 mx-auto">
+          <div class="card-body">
+            <h2 class="h1 card-title">Skills & Experience</h2>
+            <p class="card-subtitle mb-2 text-muted h2">I know HTML & CSS, and know how to use BootStrap for JavaScript and help make a site look good on smaller screens and mobile devices.</p>
+            <hr>
+            <p class="card-text h2 text-muted">I have experience with Wix (Setting up an online store with Wix's app, linking the store with Facebook Pixels for an integrated Facebook shop without code, embedding instagram posts, adding content, design, analysis of website for possible improvements, Search Engine Optimization set up).</p>
+            <hr>
+            <p class="card-text h2 text-muted">On any website I can look at the code for ideas on possible future website improvements, and have some experience with setting up domain names.</p>
+          </div>
+        </div>
+      </section> 
+      <br>
+      <section>
+        <div class="card card25 col-10 mx-auto">
+          <div class="card-body">
+            <h2 class="h1 card-title">Education</h2>
+            <p class="card-subtitle mb-2 text-muted h2">I've always loved language, so when I got introduced to the languages of coding I knew it was the carrier for me.</p>
+            <hr>
+            <p class="card-text h2 text-muted">I earned an AA in the field of history, started my own business as an artist, and wrote some children's books... I wasn't sure what to do with my history degree, so I decided to go back to school for marketing. I had been building websites for friends and family just for fun, and I was wanting to narrow down my field of study to specialize in something. So I changed my major to Web Design and began turning my passion into my official career.</p>
+            <hr>
+            <p class="card-text h2 text-muted">I learned HTML and CSS through BitWise WorkForce Training, and am currently trying to earn a certificate in Web Development.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="card card25 col-10 mx-auto">
+          <div class="card-body">
+            <h2 class="card-title">JHNordicArt</h2>
+            <h2 class="card-subtitle mb-2 text-muted">Art by Julie Hess inspired by 🇸🇪🇳🇴🇩🇰🇫🇮🇮🇸 & a few Gnome paintings here & there.</h2>
+            <hr>
+            <ul class="nopoint text-center d-flex justify-content-between">
+              <li>
+                <a href="https://www.instagram.com/jh_nordic_art/"><i class="fa-brands fa-7x fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/JHNordicArt/"><i class="fa-brands fa-7x fa-square-facebook"></i></a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@jhnordicart"><i class="fa-brands fa-7x fa-tiktok"></i></a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.com/JH_Nordic_Art/"><i class="fa-brands fa-7x fa-pinterest"></i></a>
+              </li>
+              <!--add contact me button-->
             </ul>
           </div>
         </div>
-      </nav>
-      <!--end nav-->
-    <!--<section class="menu cid-sIER248iYQ" once="menu" id="menu2-2v">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #ffffff;">
-          <div class="mac-logo-div float-left imgposition" id="mac-logo">
-            <a href="index.html"><img src="./Images/JH.png"
-                alt="A Logo that says JH" width="auto" height="100px"></a>
-          </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      </section> 
+      <!--end about me cards-->
+      <!--Start footer-->
         
-          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./web.html">Web Design</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./ebusiness.html">e-Buisness Cards</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.etsy.com/shop/JHNordicArt?ref=seller-platform-mcnav"target="_blank">JHNordicArt</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./logo.html">Logo Design</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./fonts.html">Font Design</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Me</a>
-              </li>-->
-              <!--<li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>-->
-                <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>-->
-            <!--</ul>
-          </div>
-        </nav>
-      </section>-->
-
-        <!--Start About me title section-->
-        <section>
-          <br>
-          <br>
-          <div class="card col-10 mx-auto">
-            <div class="card-body text-center">
-              <h1 class="card-title text-center animate-charcter">About Me</h1>
-            </div>
-          </div>
-          <br>
-          <br>
-          <br>
-        </section> 
-        <!--end About me title section-->
-        <!--Start Hero image section-->
-        <div class="p-5 mb-4 bg-light rounded-3 backgroundone d-flex align-items-center hero-image">
-         
-        </div>
-        <!--end Hero image section-->
-        <section>
-          <!--start about me cards-->
-          <div class="card card25 col-10 mx-auto">
-            <div class="card-body">
-              <h2 class="card-title">Julie Hess</h2>
-              <h2 class="card-subtitle mb-2 text-muted">Front End Web developer, Web Designer, Web Design Consultant, Artist (Remote) </h2>
-              <hr>
-              <ul class="nopoint text-center">
-                <li>
-                  <a href="https://www.linkedin.com/in/julie-hess-09541523a/" target="_blank"><i class="fa-brands fa-7x fa-linkedin"></i></i></a>
-                </li>
-                <!--add contact me button-->
-              </ul>
-            </div>
-          </div>
-        </section> 
-        <br>
-    <section>
-      <div class="card card25 col-10 mx-auto">
-        <div class="card-body">
-          <h2 class="h1 card-title">Skills & Experience</h2>
-          <p class="card-subtitle mb-2 text-muted h2">I know HTML & CSS, and know how to use BootStrap for JavaScript and help make a site look good on smaller screens and mobile devices.</p>
-          <hr>
-          <p class="card-text h2 text-muted">I have experience with Wix (Setting up an online store with Wix's app, linking the store with Facebook Pixels for an integrated Facebook shop without code, embedding instagram posts, adding content, design, analysis of website for possible improvements, Search Engine Optimization set up).</p>
-          <hr>
-          <p class="card-text h2 text-muted">On any website I can look at the code for ideas on possible future website improvements, and have some experience with setting up domain names.</p>
-        </div>
+<!--title section end-->
+          
       </div>
-    </section> 
-    <br>
-    <section>
-      <div class="card card25 col-10 mx-auto">
-        <div class="card-body">
-          <h2 class="h1 card-title">Education</h2>
-          <p class="card-subtitle mb-2 text-muted h2">I've always loved language, so when I got introduced to the languages of coding I knew it was the carrier for me.</p>
-          <hr>
-          <p class="card-text h2 text-muted">I earned an AA in the field of history, started my own business as an artist, and wrote some children's books... I wasn't sure what to do with my history degree, so I decided to go back to school for marketing. I had been building websites for friends and family just for fun, and I was wanting to narrow down my field of study to specialize in something. So I changed my major to Web Design and began turning my passion into my official career.</p>
-          <hr>
-          <p class="card-text h2 text-muted">I learned HTML and CSS through BitWise WorkForce Training, and am currently trying to earn a certificate in Web Development.</p>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="card card25 col-10 mx-auto">
-        <div class="card-body">
-          <h2 class="card-title">JHNordicArt</h2>
-          <h2 class="card-subtitle mb-2 text-muted">Art by Julie Hess inspired by 🇸🇪🇳🇴🇩🇰🇫🇮🇮🇸 & a few Gnome paintings here & there.</h2>
-          <hr>
-          <ul class="nopoint text-center d-flex justify-content-between">
-            <li>
-              <a href="https://www.instagram.com/jh_nordic_art/"><i class="fa-brands fa-7x fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/JHNordicArt/"><i class="fa-brands fa-7x fa-square-facebook"></i></a>
-            </li>
-            <li>
-              <a href="https://www.tiktok.com/@jhnordicart"><i class="fa-brands fa-7x fa-tiktok"></i></a>
-            </li>
-            <li>
-              <a href="https://www.pinterest.com/JH_Nordic_Art/"><i class="fa-brands fa-7x fa-pinterest"></i></a>
-            </li>
-            <!--add contact me button-->
-          </ul>
-        </div>
-      </div>
-    </section> 
-    <!--end about me cards-->
-    <!--Start footer-->
       <footer>
-      <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="first">
-                      <ul class="nopoint">
-                        <li>
-                          <h2>My Skills</h2>
-                        </li>
-                        <br>
-                        <li>
-                          <p>Graphic Design</p>
-                        </li>
-                        <li>
-                          <p>Logo Design</p>
-                        </li>
-                        <li>
-                          <p>Web Design</p>
-                        </li>
-                        <li>
-                          <p> - </p>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-  
-                <div class="col">
-                    <div class="first">
-                        <ul class="nopoint text-center">
-                            <li><h2 class="text-center">Important Links</h2></li>
-                            <br>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./web.html">WebDesign</a></li>
-                            <li><a href="./ebusiness.html">e-Business Cards</a></li>
-                            <li><a href="./about.html">About Me</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
+        <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <div class="first">
+                        <ul class="nopoint">
+                          <li>
+                            <h2>My Skills</h2>
+                          </li>
+                          <br>
+                          <li>
+                            <p>Graphic Design</p>
+                          </li>
+                          <li>
+                            <p>Logo Design</p>
+                          </li>
+                          <li>
+                            <p>Web Design</p>
+                          </li>
+                          <li>
+                            <p> - </p>
+                          </li>
                         </ul>
-                    </div>
-                </div>
-  
-                <div class="col">
-                    <div class="first">
-                        <ul class="nopoint d-flex row text-align-right">
-                            <li><h2> Contact</h2></li>
-                            <br>
-                            <br>
-                            <br>
-                            <li>Julie Hess</li>
-                            <li><a href="https://www.linkedin.com/in/julie-hess-09541523a/"target="_blank">LinkedIn</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="col-12">
-          <H2 class="h5 text-center">Julie Hess © 2022</H2>
-        </div>
-        <br>
-  </footer>
-  <!--end footer-->
-  <!--bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
+                      </div>
+                  </div>
+    
+                  <div class="col">
+                      <div class="first">
+                          <ul class="nopoint text-center">
+                              <li><h2 class="text-center">Important Links</h2></li>
+                              <br>
+                              <li><a href="./index.html">Home</a></li>
+                              <li><a href="./web.html">WebDesign</a></li>
+                              <li><a href="./ebusiness.html">e-Business Cards</a></li>
+                              <li><a href="./about.html">About Me</a></li>
+                              <li><a href="./contact.html">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+    
+                  <div class="col">
+                      <div class="first">
+                          <ul class="nopoint d-flex row text-align-right">
+                              <li><h2> Contact</h2></li>
+                              <br>
+                              <br>
+                              <br>
+                              <li>Julie Hess</li>
+                              <li><a href="https://www.linkedin.com/in/julie-hess-09541523a/"target="_blank">LinkedIn</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="col-12">
+            <H2 class="h5 text-center">Julie Hess © 2022</H2>
+          </div>
+          <br>
+    </footer>
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./JavaScript/myscripts.js"></script>
+</body>
 </html>

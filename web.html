@@ -1,244 +1,253 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Julie Hess">
-    <meta name="description" content="Website Design by Julie Hess">
-    <title>Web Design</title>
-    <!-- Required meta tags -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/1a1dc46bbe.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
+    <link rel="stylesheet" href="./css/new.css">
+</head>
   <body>
-    <!--Start Nav-->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a href="./index.html"><img src="./Images/JH.png" width="auto" height="100px" alt="A logo that says J H"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item active">
-                  <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./web.html">Web Design</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./ebusiness.html">e-Buisness Cards</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.etsy.com/shop/JHNordicArt?ref=seller-platform-mcnav"target="_blank">JHNordicArt</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./logo.html">Logo Design</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./fonts.html">Font Design</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact Me</a>
-                </li>
-          </ul>
-        </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="./web.html">Web Design</a>
+        <a href="./ebusiness.html">e-Buisness Cards</a>
+        <a href="https://www.etsy.com/shop/JHNordicArt?ref=seller-platform-mcnav" target="_blank">JHNordicArt</a>
+        <a href="./logo.html">Logo Design</a>
+        <a href="./fonts.html">Font Design</a>
+        <a href="./contact.html">Contact</a>
       </div>
-    </nav>
-    <!--end Nav-->
- <!--Start web experience title-->
-<section>
-  <br>
-  <br>
-    <br>
-    <br>
-    <div class="card col-10 mx-auto">
-      <div class="card-body text-center">
-        <h1 class="card-title text-center animate-charcter">Website Experience</h1>
-      </div>
-    </div>
-</section>
- <!--End web experience title-->
-    <br>
-    <br>
-    <br>
-<!--Start web experience examples-->
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col d-flex flex-wrap">
-    <div class="card card25">
-      <div class="card-body">
-        <h2 class="card-title">PhotoWithMyFriends</h2>
-        <p class="card-text">Completely redesigned their Yola Website, and made it secure. Helped them update their old website building service and gave their website a fresh new look.</p>
-        <p class="card-title"><a href="https://photowithmyfriends.com/" target="_blank">PhotoWithMyFriends.com</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col d-flex flex-wrap">
-    <div class="card card25">
-      <div class="card-body">
-        <h2 class="card-title">This Website</h2>
-        <p class="card-text">Made this website to be used as a portfolio and display the kinds of things I can do both creatively and technology wise.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col d-flex flex-wrap">
-    <div class="card card25">
-      <div class="card-body">
-        <h2 class="card-title">Svensk Butik Swedish Gifts</h2>
-        <p class="card-text">Helped set up website and designed a new logo for this business. Working on making this website more visually appealing.</p>
-        <p class="card-title"><a href="https://www.sbswedishgifts.com/" target="_blank">SBSwedishGifts.com</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col d-flex flex-wrap">
-    <div class="card card25">
-      <div class="card-body">
-        <h2 class="card-title">R&R Auto</h2>
-        <h2 class="h5 card-title">Prototype Website</h2>
-        <p class="card-text">I approached a business who I knew was thinking about having a website but didn't know where to start. I asked them if they wanted me to make them a prototype website. I also revised their logo to give it a transparent background. All they gave me were photos and information about their business, and I designed this prototype website for them. They said that they really like it, and I'm now working on making it mobile friendly. They also said that they might be interested in making this their future website, but would like to do more research first.</p>
-        <p class="card-title"><a href="https://jdhess.github.io/FinalProjectW4B/" target="_blank">Project Link</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col d-flex flex-wrap">
-    <div class="card card25">
-      <div class="card-body">
-        <h2 class="card-title">JaxTHRIVE</h2>
-        <h2 class="card-title h5">Volunteer Work</h2>
-        <p class="card-text">Updating a website for JaxTHRIVE on Wix. Optimizing website for google search results, analyzing website analytics to help make decisions on what to improve. Helping them design new website page layouts, making the website look nice and more professional. Also helped them obtain their .org domain for their business and helping them connect a .org domain name.</p>
-        <p class="card-title"><a href="https://www.jaxthrive.org/" target="_blank">JaxTHRIVE.org</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col d-flex flex-wrap">
-    <div class="card card25">
-      <div class="card-body">
-        <h2 class="card-title">LightUpTheWalls</h2>
-        <p class="card-text">In progress complete website update. Website not updated link will be added upon completion of site.</p>
-        <!--<p class="card-title"><a href="#" target="_blank">LightUpTheWalls.com</a></p>-->
-      </div>
-    </div>
-  </div>
-</div>
-<!--end web experience examples-->
-
-<!--Start web experience section-->
-<br>
-<br>
-<section>
-  <div class="card col card25 mx-auto">
-    <div class="card-body">
-      <h2 class="card-title">Julie Hess</h2>
-      <h2 class="card-subtitle mb-2 text-muted">Front End Web developer, Web Designer, Web Design Consultant, Artist (Remote) </h2>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <hr>
-      <ul class="nopoint"style="text-align:center;">
-        <li>
-          <a href="https://www.linkedin.com/in/julie-hess-09541523a/" target="_blank"><i class="fa-brands fa-7x fa-linkedin"></i></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section> 
-<br>
-<section>
-  <div class="card col card25 mx-auto">
-    <div class="card-body">
-      <h2 class="h1 card-title">Skills & Experience</h2>
-      <p class="card-subtitle mb-2 text-muted h2">I know HTML & CSS, and know how to use BootStrap for JavaScript and help make a site look good on smaller screens and mobile devices.</p>
-      <hr>
-      <p class="card-text h2 text-muted">I have experience with Wix (Setting up an online store with Wix's app, linking the store with Facebook Pixels for an integrated Facebook shop without code, embedding instagram posts, adding content, design, analysis of website for possible improvements, Search Engine Optimization set up).</p>
-      <hr>
-      <p class="card-text h2 text-muted">On any website I can look at the code for ideas on possible future website improvements, and have some experience with setting up domain names.</p>
-    </div>
-  </div>
-</section> 
-<br>
-<section>
-  <div class="card col card25 mx-auto">
-    <div class="card-body">
-      <h2 class="h1 card-title">Education</h2>
-      <p class="card-subtitle mb-2 text-muted h2">I've always loved language, so when I got introduced to the languages of coding I knew it was the carrier for me.</p>
-      <hr>
-      <p class="card-text h2 text-muted">I earned an AA in the field of history, started my own business as an artist, and wrote some children's books... I wasn't sure what to do with my history degree, so I decided to go back to school for marketing. I had been building websites for friends and family just for fun, and I was wanting to narrow down my field of study to specialize in something. So I changed my major to Web Design and began turning my passion into my official career.</p>
-      <hr>
-      <p class="card-text h2 text-muted">I learned HTML and CSS through BitWise WorkForce Training, and am currently trying to earn a certificate in Web Development.</p>
-    </div>
-  </div>
-</section>
-<!--End web experience section-->
-
-<!--Start footer-->
-<footer>
-  <div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="first">
-                  <ul class="nopoint">
-                    <li>
-                      <h2>My Skills</h2>
-                    </li>
-                    <br>
-                    <li>
-                      <p>Graphic Design</p>
-                    </li>
-                    <li>
-                      <p>Logo Design</p>
-                    </li>
-                    <li>
-                      <p>Web Design</p>
-                    </li>
-                    <li>
-                      <p> - </p>
-                    </li>
-                  </ul>
-                </div>
+      <!--main content start-->
+      <div id="main">
+         <!--top nav start--> 
+        
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a href="./index.html"><img src="./Images/JH.png" width="auto" height="100px" alt="A logo that says J H"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./web.html">Web Design</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./ebusiness.html">e-Buisness Cards</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Me</a>
+                      </li>
+                </ul>
+                <hr>
+                <button class="openbtn" onclick="openNav()">More</button>
+              </div>
             </div>
-
-            <div class="col">
-                <div class="first">
-                    <ul class="nopoint text-center">
-                        <li><h2 class="text-center">Important Links</h2></li>
-                        <br>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./web.html">WebDesign</a></li>
-                        <li><a href="./ebusiness.html">e-Business Cards</a></li>
-                        <li><a href="./about.html">About Me</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                    </ul>
+          </nav>
+          <!--top nav end--> 
+          <!--title section start-->
+          <section>
+            <br>
+            <br>
+              <br>
+              <br>
+              <div class="card col-10 mx-auto">
+                <div class="card-body text-center">
+                  <h1 class="card-title text-center animate-charcter">Website Experience</h1>
                 </div>
-            </div>
-
-            <div class="col">
-                <div class="first">
-                    <ul class="nopoint d-flex row text-align-right">
-                        <li><h2> Contact</h2></li>
-                        <br>
-                        <br>
-                        <br>
-                        <li>Julie Hess</li>
-                        <li><a href="https://www.linkedin.com/in/julie-hess-09541523a/"target="_blank">LinkedIn</a></li>
-                    </ul>
+              </div>
+          </section>
+           <!--End web experience title-->
+              <br>
+              <br>
+              <br>
+          <!--Start web experience examples-->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col d-flex flex-wrap">
+              <div class="card card25">
+                <div class="card-body">
+                  <h2 class="card-title">PhotoWithMyFriends</h2>
+                  <p class="card-text">Completely redesigned their Yola Website, and made it secure. Helped them update their old website building service and gave their website a fresh new look.</p>
+                  <p class="card-title"><a href="https://photowithmyfriends.com/" target="_blank">PhotoWithMyFriends.com</a></p>
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <hr>
-    <div class="col-12">
-      <H2 class="h5 text-center">Julie Hess © 2022</H2>
-    </div>
-    <br>
-</footer>
-<!--End footer-->
-
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  </body>
+            <div class="col d-flex flex-wrap">
+              <div class="card card25">
+                <div class="card-body">
+                  <h2 class="card-title">This Website</h2>
+                  <p class="card-text">Made this website to be used as a portfolio and display the kinds of things I can do both creatively and technology wise.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex flex-wrap">
+              <div class="card card25">
+                <div class="card-body">
+                  <h2 class="card-title">Svensk Butik Swedish Gifts</h2>
+                  <p class="card-text">Helped set up website and designed a new logo for this business. Working on making this website more visually appealing.</p>
+                  <p class="card-title"><a href="https://www.sbswedishgifts.com/" target="_blank">SBSwedishGifts.com</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex flex-wrap">
+              <div class="card card25">
+                <div class="card-body">
+                  <h2 class="card-title">R&R Auto</h2>
+                  <h2 class="h5 card-title">Prototype Website</h2>
+                  <p class="card-text">I approached a business who I knew was thinking about having a website but didn't know where to start. I asked them if they wanted me to make them a prototype website. I also revised their logo to give it a transparent background. All they gave me were photos and information about their business, and I designed this prototype website for them. They said that they really like it, and I'm now working on making it mobile friendly. They also said that they might be interested in making this their future website, but would like to do more research first.</p>
+                  <p class="card-title"><a href="https://jdhess.github.io/FinalProjectW4B/" target="_blank">Project Link</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex flex-wrap">
+              <div class="card card25">
+                <div class="card-body">
+                  <h2 class="card-title">JaxTHRIVE</h2>
+                  <h2 class="card-title h5">Volunteer Work</h2>
+                  <p class="card-text">Updating a website for JaxTHRIVE on Wix. Optimizing website for google search results, analyzing website analytics to help make decisions on what to improve. Helping them design new website page layouts, making the website look nice and more professional. Also helped them obtain their .org domain for their business and helping them connect a .org domain name.</p>
+                  <p class="card-title"><a href="https://www.jaxthrive.org/" target="_blank">JaxTHRIVE.org</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex flex-wrap">
+              <div class="card card25">
+                <div class="card-body">
+                  <h2 class="card-title">LightUpTheWalls</h2>
+                  <p class="card-text">In progress complete website update. Website not updated link will be added upon completion of site.</p>
+                  <!--<p class="card-title"><a href="#" target="_blank">LightUpTheWalls.com</a></p>-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end web experience examples-->
+          
+          <!--Start web experience section-->
+          <br>
+          <br>
+          <section>
+            <div class="card col card25 mx-auto">
+              <div class="card-body">
+                <h2 class="card-title">Julie Hess</h2>
+                <h2 class="card-subtitle mb-2 text-muted">Front End Web developer, Web Designer, Web Design Consultant, Artist (Remote) </h2>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <hr>
+                <ul class="nopoint"style="text-align:center;">
+                  <li>
+                    <a href="https://www.linkedin.com/in/julie-hess-09541523a/" target="_blank"><i class="fa-brands fa-7x fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section> 
+          <br>
+          <section>
+            <div class="card col card25 mx-auto">
+              <div class="card-body">
+                <h2 class="h1 card-title">Skills & Experience</h2>
+                <p class="card-subtitle mb-2 text-muted h2">I know HTML & CSS, and know how to use BootStrap for JavaScript and help make a site look good on smaller screens and mobile devices.</p>
+                <hr>
+                <p class="card-text h2 text-muted">I have experience with Wix (Setting up an online store with Wix's app, linking the store with Facebook Pixels for an integrated Facebook shop without code, embedding instagram posts, adding content, design, analysis of website for possible improvements, Search Engine Optimization set up).</p>
+                <hr>
+                <p class="card-text h2 text-muted">On any website I can look at the code for ideas on possible future website improvements, and have some experience with setting up domain names.</p>
+              </div>
+            </div>
+          </section> 
+          <br>
+          <section>
+            <div class="card col card25 mx-auto">
+              <div class="card-body">
+                <h2 class="h1 card-title">Education</h2>
+                <p class="card-subtitle mb-2 text-muted h2">I've always loved language, so when I got introduced to the languages of coding I knew it was the carrier for me.</p>
+                <hr>
+                <p class="card-text h2 text-muted">I earned an AA in the field of history, started my own business as an artist, and wrote some children's books... I wasn't sure what to do with my history degree, so I decided to go back to school for marketing. I had been building websites for friends and family just for fun, and I was wanting to narrow down my field of study to specialize in something. So I changed my major to Web Design and began turning my passion into my official career.</p>
+                <hr>
+                <p class="card-text h2 text-muted">I learned HTML and CSS through BitWise WorkForce Training, and am currently trying to earn a certificate in Web Development.</p>
+              </div>
+            </div>
+          </section>
+          <!--End web experience section-->
+<!--title section end-->
+          
+      </div>
+      <footer>
+        <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <div class="first">
+                        <ul class="nopoint">
+                          <li>
+                            <h2>My Skills</h2>
+                          </li>
+                          <br>
+                          <li>
+                            <p>Graphic Design</p>
+                          </li>
+                          <li>
+                            <p>Logo Design</p>
+                          </li>
+                          <li>
+                            <p>Web Design</p>
+                          </li>
+                          <li>
+                            <p> - </p>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+    
+                  <div class="col">
+                      <div class="first">
+                          <ul class="nopoint text-center">
+                              <li><h2 class="text-center">Important Links</h2></li>
+                              <br>
+                              <li><a href="./index.html">Home</a></li>
+                              <li><a href="./web.html">WebDesign</a></li>
+                              <li><a href="./ebusiness.html">e-Business Cards</a></li>
+                              <li><a href="./about.html">About Me</a></li>
+                              <li><a href="./contact.html">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+    
+                  <div class="col">
+                      <div class="first">
+                          <ul class="nopoint d-flex row text-align-right">
+                              <li><h2> Contact</h2></li>
+                              <br>
+                              <br>
+                              <br>
+                              <li>Julie Hess</li>
+                              <li><a href="https://www.linkedin.com/in/julie-hess-09541523a/"target="_blank">LinkedIn</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="col-12">
+            <H2 class="h5 text-center">Julie Hess © 2022</H2>
+          </div>
+          <br>
+    </footer>
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./JavaScript/myscripts.js"></script>
+</body>
 </html>

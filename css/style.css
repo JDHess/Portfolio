@@ -74,6 +74,8 @@ p {
   display: inline-block;
   font-size: 75pt;
 }
+
+
 @media screen and (min-width:1000px) {
     .animate-charcter {
         font-size: 75pt;
@@ -96,12 +98,13 @@ p {
         font-size: 16pt;
     }
 }
-
+/*keyframe for text effect*/
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
 }
+
 /*End Animate all animate-charcter titles */
 
 .charictortwo{
