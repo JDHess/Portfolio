@@ -363,7 +363,7 @@ p {
 }
 .hero-image {
     /*I own this image*/
-    background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../Images/me.png");
+    background-image: url("../Images/me.png");
     height: 100px;
     width: auto;
     background-repeat: no-repeat;
@@ -372,7 +372,6 @@ p {
   /*background attachement makes image fixed*/
     background-attachment: fixed;
     position: relative;
-    
 }
 /*Start moving homepage section up into hero section*/
 .pose-section {
