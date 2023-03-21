@@ -351,16 +351,28 @@ p {
 
 
 /*Hero image for all pages*/
+.herocontain {
+    height: 100px;
+    position: relative;
+    width: 100%;
+}
+.stickyimg {
+    position: relative;
+    height: 50px;
+    
+}
 .hero-image {
+    /*I own this image*/
     background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../Images/me.png");
-    height: 500px;
+    height: 100px;
+    width: auto;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: contain;
   /*image is fixed in background all other elements are scrolling*/  
   /*background attachement makes image fixed*/
     background-attachment: fixed;
     position: relative;
-    background-position: center;
+    
 }
 /*Start moving homepage section up into hero section*/
 .pose-section {
@@ -369,3 +381,33 @@ p {
 }
 
 /*end moving homepage section up into hero section*/
+@media only screen and (min-width: 526px) {
+  .hero-image {
+    height: 150px;
+  }
+  .stickyimg{
+    height: 500px;
+  }
+  .herocontain {
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 810px) {
+  .hero-image {
+    height: 300px;
+    background-size: cover;
+  }
+  .herocontain {
+    height: 350px;
+  }
+}
+button{
+    padding: 5px;
+    background-color:rgb(201, 167, 107);
+    color: black;
+    
+}
+button:hover{
+    background-color: #000000;
+    color:rgb(201, 167, 107);
+}
