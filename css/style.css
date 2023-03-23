@@ -367,6 +367,9 @@ p {
     .hero-image {
         display: none;
     }
+    .replacehero {
+        display:block;
+    }
     }
 
 .stickyimg {
@@ -395,6 +398,15 @@ p {
     /* start of large tablet styles */
     .replacehero {
         display: none;
+    }
+    .herocontain{
+        display: block;
+    }
+    .stickyimg {
+        display: block;
+    }
+    .hero-image {
+        display: block;
     }
     }
 /*Start moving homepage section up into hero section*/
