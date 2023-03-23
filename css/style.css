@@ -355,6 +355,7 @@ p {
     height: 100px;
     position: relative;
     width: 100%;
+    display:block;
 }
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
@@ -367,14 +368,12 @@ p {
     .hero-image {
         display: none;
     }
-    .replacehero {
-        display:block;
-    }
     }
 
 .stickyimg {
     position: relative;
     height: 50px;
+    display: block;
     
 }
 
@@ -389,24 +388,17 @@ p {
   /*background attachement makes image fixed*/
     background-attachment: fixed;
     position: relative;
+    display: block;
 }
 .replacehero {
     width: 100%;
     height: auto;
+    display: block;
 }
 @media screen and (min-width: 991px) {
     /* start of large tablet styles */
     .replacehero {
         display: none;
-    }
-    .herocontain{
-        display: block;
-    }
-    .stickyimg {
-        display: block;
-    }
-    .hero-image {
-        display: block;
     }
     }
 /*Start moving homepage section up into hero section*/
