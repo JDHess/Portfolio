@@ -356,11 +356,25 @@ p {
     position: relative;
     width: 100%;
 }
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .herocontain{
+        display: none;
+    }
+    .stickyimg {
+        display: none;
+    }
+    .hero-image {
+        display: none;
+    }
+    }
+
 .stickyimg {
     position: relative;
     height: 50px;
     
 }
+
 .hero-image {
     /*I own this image*/
     background-image: url("../Images/me.png");
@@ -373,6 +387,16 @@ p {
     background-attachment: fixed;
     position: relative;
 }
+.replacehero {
+    width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 991px) {
+    /* start of large tablet styles */
+    .replacehero {
+        display: none;
+    }
+    }
 /*Start moving homepage section up into hero section*/
 .pose-section {
     position: relative; 
