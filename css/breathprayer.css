@@ -13,6 +13,10 @@ hr {
 .webad {
     display: block;
 }
+.webadsec {
+    position: fixed;
+    top: 100px;
+}
 .mobilead {
     display: block;
 }
